@@ -1,6 +1,6 @@
-# Dumb generator of bitsliced implementation of DES S-boxes
+# Dumb generator of bitsliced implementations of DES S-boxes
 
-This repo contains scripts to find bitslice implementations of DES S-boxes using brute force (deterministic search). This project was not successful and did not produce anything practically usable. But intermediate results are available for investigation.
+This repo contains scripts to find bitslice implementations of DES S-boxes using brute force (deterministic exhaustive search). This project was not successful and did not produce anything practically usable. But intermediate results are available for investigation.
 
 The goal is to find optimal implementations of DES S-boxes using common sets of gates. Currently only traditional gates plus andnot are supported (not, and, or, xor, andnot).
 
