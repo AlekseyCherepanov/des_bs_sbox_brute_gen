@@ -34,9 +34,10 @@ Type 0 means "not", the second argument is ignored (most probably it is 0 everyw
 
 3 weeks (24 hours a days) using 24 threads were needed to try all circuits with up to 8 gates. Bruteforcer saves results for all possible valid outputs and for all halves. At size 8, 2 pairs of halves for different sboxes were found: so for these sbox, it is possible to compose a circuit that produces 1 output bit correctly.
 
-Unpacked size of the results is 22 GB.
+(Halves can combined into full output using bitselect operation.)
 
-TBD: link to download results
+Unpacked size of the results is 22 GB. Packed size is 328 MB:
+https://github.com/AlekseyCherepanov/des_bs_sbox_brute_gen/releases/download/v1.0/des_bs_sbox_brute_gen.results.7z
 
 ## Files in repo
 
